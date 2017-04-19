@@ -1,0 +1,26 @@
+{
+  "name": "node-api",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "<git URL>"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Pavan Chokshi",
+  "license": "MIT",
+  "dependencies": {
+    "async": "0.2.10",
+    "bluebird": "^3.5.0",
+    "body-parser": "~1.0.1",
+    "express": "~4.0.0",
+    "jsonwebtoken": "^7.3.0",
+    "mongoose": "~4.6.8",
+    "morgan": "~1.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1"
+  }
+}
